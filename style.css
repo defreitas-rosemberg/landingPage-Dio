@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+span  {
+    color: #33A8DB;
+}
+
+header {
+    height: 550px;
+    background-image: url(./img/banner.png), linear-gradient(black 3%, #082d42 40%, black);
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #33A8DB;    
+    padding-top: 56px;
+
+}
+
+.div-01-header {
+    width: 510px;
+    height: 393px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.div-02-header {
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    padding-bottom: 30px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.h1-01-header {
+    color: #33A8DB;
+    padding-bottom: 25px;
+    font-family: raleway;
+    font-weight: 900;
+    font-size: 40px;
+    background-image: linear-gradient(#33A8DB, #0d313f 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+.p-01-header {
+    color: #FFFF;
+    font-size: 20px;
+    font-family: raleway;
+    font-weight: 400;
+}
+
+button {
+    color: #33A8DB;
+    padding: 19px 91px;
+    background-color: transparent;
+    border: 2px solid #33A8DB;
+    font-family: raleway;
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+.section-01 {
+    height: 470px;
+    border-bottom: 1px solid #33A8DB;
+    background-color: black;
+    padding-top: 120px;
+}
+
+.div-01-sec-01 {
+    width: 792px;
+    height: 352px;
+    background-color: transparent;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* *** *** *** *** ***  */
+
+h2 {
+    color: #33A8DB;
+    font-family: raleway;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+/* *** *** *** *** ***  */
+
+.p-01-sec-01 {
+    color: #FFFF;
+    font-size: 16px;
+    font-family: raleway;
+    font-weight: 400;   
+    margin-top: 20px;
+}
+
+.div-02-sec-01, .div-03-sec-01, .div-04-sec-01 {
+    width: 535px;
+    height: 51px;
+    border: 1px solid #33A8DB;
+    border-radius: 57px;
+    color: #FFFF;
+    /* a propriedade "text-align: center" do elemento pai "div-sec-01" não funcionou
+    pois essa propriedade alinha ao centro elementos de texto.  
+    por isso usei o "margin: 0 auto", para alinhar blocos (divs) dentro de outro bloco (div-sec-01)*/
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgb(25, 25, 25);
+    box-shadow: inset -2px 3px 3px black;
+}
+
+.p-02-sec-01, .p-03-sec-01, .p-04-sec-01 {
+    font-size: 16px;
+    font-family: raleway;
+    font-weight: 400; 
+    margin-top: 16px;
+}
+
+.section-02 {
+    height: 300px;
+    border-bottom: 1px solid #33A8DB;
+    background-image: url(./img/woman-code.png), linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(22, 34, 39) 50%, rgb(0, 0, 0) 100%); 
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 160px;
+    padding-left: 200px;
+}
+
+.div-01-sec-02 {
+    width: 244px;
+    height: 141px;
+    /* color: #FFFF; */
+}
+
+.p-01-sec-02 {
+    color: #FFFF;
+    font-size: 40px;
+    font-family: raleway;
+    font-weight: 900;
+    /* aplica sombra ao texto nas seguintes posições -> hor, ver, desf, cor-desf */
+    text-shadow: 3px 2px 1px #33A8DB;
+}
+
+.section-03 {
+    height: 700px;
+    background-color: black;
+    border-bottom: 1px solid #33A8DB;
+    text-align: center;
+    padding-top: 80px;
+
+}
+
+.div-01-sec-03 {
+    width: 746px;
+    height: 76px;
+    font-family: raleway;
+    font-weight: 700;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 20px;
+    letter-spacing: 5px;
+
+}
+
+.div-02-sec-03 {
+    width: 746px;
+    height: 76px;
+    margin: auto;
+}
+
+.p-01-sec-03 {
+    color: #FFFF;
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+footer {
+    height: 130px;
+    background-image: linear-gradient(black, #082d42);
+    text-align: center;
+    padding-top: 60px;
+    /* esse tamanh não pegou, precisa de um container separado */
+    font-size: 15px;
+}
+
+figure {
+    width: 310px;
+    height: 44px;
+    background-image: url(./img/dio-logo.png);
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.p-01-footer {
+    margin-top: 10px;
+    color: #FFFF;
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 15px;   
+}
